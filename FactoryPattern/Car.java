@@ -1,7 +1,8 @@
 package FactoryPattern;
 
 public interface Car {
-	public String toString();
+	String productName = "null";
+	String toString();
 }
 
 

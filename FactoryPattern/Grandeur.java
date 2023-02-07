@@ -1,9 +1,10 @@
 package FactoryPattern;
 
 public class Grandeur implements Car {
-	private final String name = "Grandeur";
+	private final String productName = "Grandeur";
 
+	@Override
 	public String toString() {
-		return name;
+		return productName;
 	}
 }
